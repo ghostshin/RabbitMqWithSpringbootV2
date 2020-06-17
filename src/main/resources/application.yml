@@ -1,0 +1,11 @@
+server:
+  port: 8022
+spring:
+  application:
+    name: rabbitmq-provider
+  rabbitmq:
+    host: 192.168.31.84
+    port: 5672
+    username: dep_user
+    password: 1024
+    virtual-host: /vhost_dep
